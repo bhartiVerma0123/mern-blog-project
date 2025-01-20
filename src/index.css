@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+nav{
+  background-color:black
+}
+nav ul li a{
+  text-transform: uppercase;
+}
+
+/* footer start */
+footer{
+  background-color: #080c50;
+}
+footer p{
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+/* about-section */
+#about-section{
+  position: relative;
+ background-image: url("./assets/about blogs.jpg");
+ height: 500px;
+ background-size:100% 100%;
+ background-repeat: no-repeat;
+ margin-bottom: 40px;
+}
+
+/*  admin dashboard css */
+#admin-banner-image img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
