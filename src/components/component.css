@@ -1,0 +1,77 @@
+/* General Styling */
+#blog-content {
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.blog-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.blog-left-data, .blog-right-data {
+  flex: 1;
+  min-width: 300px;
+}
+
+.blog-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.blog-data img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.view-more {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.view-more button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-more button:hover {
+  background-color: #0056b3;
+}
+
+.right-blog-box {
+  margin-bottom: 15px;
+}
+
+.Btn {
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+.Btn:hover {
+  background-color: #218838;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .blog-box {
+    flex-direction: column;
+  }
+
+  .blog-left-data, .blog-right-data {
+    width: 100%;
+  }
+}
